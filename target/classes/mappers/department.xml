@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace与包名一致-->
+<mapper namespace="com.imooc.oa.dao.DepartmentDao">
+    <select id="selectById" parameterType="Long" resultType="com.imooc.oa.entity.Department">
+        SELECT * FROM adm_department WHERE department_id = #{value}
+    </select>
+</mapper>

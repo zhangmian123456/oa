@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>慕课网办公OA系统</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="resources/layui/css/layui.css">
+    <link rel="stylesheet" href="../../resources/layui/css/layui.css">
 </head>
 
 <body class="layui-layout-body">
@@ -21,12 +21,12 @@
                     <!--图标-->
                     <span class="layui-icon layui-icon-user" style="font-size: 20px">
                     </span>
-                    <!--用户信息-->
-                    姓名[部门-职务]
+                    <!--用户信息  姓名[部门-职务]-->
+                    ${current_employee.name}[${current_department.departmentName}-${current_employee.title}]
                 </a>
             </li>
             <!--注销按钮-->
-            <li class="layui-nav-item"><a href="#">注销</a></li>
+            <li class="layui-nav-item"><a href="/logout">注销</a></li>
         </ul>
     </div>
     <!--左侧菜单栏-->
@@ -35,34 +35,22 @@
         <div class="layui-side-scroll">
             <!--可折叠导航栏-->
             <ul class="layui-nav layui-nav-tree">
+                <#list node_list as node>
                 <!--父节点-->
+                    <#if node.nodeType == 1>
                 <li class="layui-nav-item layui-nav-itemed">
-                    <a href="javascript:void(0)">模块1</a>
-                    <dl class="layui-nav-child module" data-node-id="1"></dl>
+                    <a href="javascript:void(0)">${node.nodeName}</a>
+                    <dl class="layui-nav-child module" data-node-id=${node.nodeId}></dl>
                 </li>
+                    </#if>
                 <!--子节点-->
-                <dd class="function" data-parent-id="1">
-                    <a href="javascript:void(0)" target="ifmMain">功能1</a>
+                    <#if node.nodeType == 2>
+                <dd class="function" data-parent-id=${node.parentId}>
+                    <a href="javascript:void(0)" target="ifmMain">${node.nodeName}</a>
                 </dd>
-                <dd class="function" data-parent-id="1">
-                    <a href="javascript:void(0)" target="ifmMain">功能2</a>
-                </dd>
-                <dd class="function" data-parent-id="1">
-                    <a href="javascript:void(0)" target="ifmMain">功能3</a>
-                </dd>
-                <li class="layui-nav-item layui-nav-itemed">
-                    <a href="javascript:void(0)">模块2</a>
-                    <dl class="layui-nav-child module" data-node-id="2"></dl>
-                </li>
-                <dd class="function" data-parent-id="2">
-                    <a href="javascript:void(0)" target="ifmMain">功能3</a>
-                </dd>
-                <dd class="function" data-parent-id="2">
-                    <a href="javascript:void(0)" target="ifmMain">功能4</a>
-                </dd>
-                <dd class="function" data-parent-id="2">
-                    <a href="javascript:void(0)" target="ifmMain">功能5</a>
-                </dd>
+                    </#if>
+                </#list>
+
             </ul>
         </div>
     </div>
@@ -76,7 +64,7 @@
     </div>
 </div>
 <!--LayUI JS文件-->
-<script src="resources/layui/layui.all.js"></script>
+<script src="../../resources/layui/layui.all.js"></script>
 <script>
     //将所有功能根据parent_id移动到指定模块下
     layui.$(".function").each(function () {

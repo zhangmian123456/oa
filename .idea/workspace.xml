@@ -6,7 +6,49 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bff546e-bc03-4d8e-95ed-0785372ad7d2" name="Default Changelist" comment="" />
+    <list default="true" id="4bff546e-bc03-4d8e-95ed-0785372ad7d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/oa/controller/IndexServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/oa/controller/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/oa/dao/DepartmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/oa/dao/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/oa/dao/RbacDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/oa/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/oa/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/oa/entity/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/oa/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/oa/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/oa/utils/MD5Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/department.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/employee.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/rbac.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/oa/utils/MD5UtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/imooc_oa_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/imooc_oa_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_oa_Web_exploded/WEB-INF/classes/com/imooc/oa/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_oa_Web_exploded/WEB-INF/classes/com/imooc/oa/controller/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_oa_Web_exploded/WEB-INF/classes/com/imooc/oa/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_oa_Web_exploded/WEB-INF/classes/com/imooc/oa/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_oa_Web_exploded/WEB-INF/classes/com/imooc/oa/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_oa_Web_exploded/WEB-INF/classes/com/imooc/oa/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_oa_Web_exploded/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_oa_Web_exploded/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_oa_Web_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_oa_Web_exploded/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_oa_Web_exploded/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/oa/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/oa/controller/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/oa/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/oa/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/oa/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/oa/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/imooc/oa/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/oa/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/oa/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/oa/controller/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/oa/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/oa/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/oa/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/oa/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/oa/service/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/imooc/oa/service/UserServiceTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,17 +66,38 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="OA" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="OA" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="OA" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="imooc-oa: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -51,30 +114,39 @@
     </option>
   </component>
   <component name="ProjectId" id="1dny8rJlFi5zPvJFNHqPzGxaVbQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mappers" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.imooc.oa.utils" />
       <recent name="com.imooc.oa.service" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\JAVA\imooc-oa\src\main\webapp" />
-      <recent name="D:\Code\JAVA\imooc-oa\src\main\webapp\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\JAVA\imooc-oa\src\main\webapp\WEB-INF\ftl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.oa.dao" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\JAVA\imooc-oa\src\main\webapp\WEB-INF\ftl" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\JAVA\imooc-oa\src\main\resources\mappers" />
+      <recent name="D:\Code\JAVA\imooc-oa\src\main\webapp" />
+      <recent name="D:\Code\JAVA\imooc-oa\src\main\webapp\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -90,7 +162,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.56">
-    <configuration name="MyBatisUtilsTest.testCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MD5UtilsTest.md5Digest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="imooc-oa" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +171,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.imooc.oa.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.oa.utils.MyBatisUtilsTest" />
-      <option name="METHOD_NAME" value="testCase1" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.oa.utils.MD5UtilsTest" />
+      <option name="METHOD_NAME" value="md5Digest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,38 +193,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.checkLogin1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="imooc-oa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.oa.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.imooc.oa.service" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.oa.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="checkLogin1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceTest.checkLogin2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="imooc-oa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.oa.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.imooc.oa.service" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.oa.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="checkLogin2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserServiceTest.checkLogin3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="imooc-oa" />
       <extension name="coverage">
@@ -169,7 +209,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserServiceTest.selectByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imooc-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.oa.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.oa.service" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.oa.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="selectByUserId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.selectNodeByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imooc-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.oa.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.oa.service" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.oa.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="selectNodeByUserId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 8.5.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.56" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/login.html" />
       <deployment>
         <artifact name="imooc-oa:Web exploded">
           <settings>
@@ -242,22 +315,42 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyBatisUtilsTest.testCase1" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.56" />
       <item itemvalue="JUnit.UserServiceTest" />
-      <item itemvalue="JUnit.UserServiceTest.checkLogin1" />
-      <item itemvalue="JUnit.UserServiceTest.checkLogin2" />
       <item itemvalue="JUnit.UserServiceTest.checkLogin3" />
+      <item itemvalue="JUnit.UserServiceTest.selectByUserId" />
+      <item itemvalue="JUnit.UserServiceTest.selectNodeByUserId" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.56" />
+      <item itemvalue="JUnit.MD5UtilsTest.md5Digest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MD5UtilsTest.md5Digest" />
+        <item itemvalue="JUnit.UserServiceTest.selectNodeByUserId" />
+        <item itemvalue="JUnit.UserServiceTest.selectByUserId" />
         <item itemvalue="JUnit.UserServiceTest.checkLogin3" />
         <item itemvalue="JUnit.UserServiceTest" />
-        <item itemvalue="JUnit.UserServiceTest.checkLogin2" />
-        <item itemvalue="JUnit.UserServiceTest.checkLogin1" />
-        <item itemvalue="JUnit.MyBatisUtilsTest.testCase1" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@196293a0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@196293a0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2a8bb6e6" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -270,11 +363,25 @@
       <option name="presentableId" value="Default" />
       <updated>1593074994744</updated>
       <workItem from="1593074996736" duration="8046000" />
-      <workItem from="1593151428743" duration="14918000" />
+      <workItem from="1593151428743" duration="15732000" />
+      <workItem from="1593228505258" duration="15147000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
