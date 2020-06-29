@@ -18,6 +18,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @WebServlet(name = "LeaveFormServlet", urlPatterns = "/leave/*")
@@ -29,14 +30,18 @@ public class LeaveFormServlet extends HttpServlet {
         response.setContentType("text/html;charset=utf-8");
         // http://localhost/leave/create
         String uri = request.getRequestURI();
-        String methodName = uri.substring(uri.lastIndexOf('/')+1);
+        String methodName = uri.substring(uri.lastIndexOf("/")+1);
         if(methodName.equals("create")){
             this.create(request, response);
+        }else if(methodName.equals("list")){
+            this.getLeaveFormList(request, response);
+        }else if(methodName.equals("audit")){
+            this.audit(request, response);
         }
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        this.doPost(request, response);
     }
 
     /**
@@ -80,4 +85,52 @@ public class LeaveFormServlet extends HttpServlet {
         response.getWriter().println(json);
 
     }
+
+    /**
+     * 查询需要审核的请假表单
+     * @param request
+     * @param response
+     * @throws ServletException
+     * @throws IOException
+     */
+    private void getLeaveFormList(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        User user = (User)request.getSession().getAttribute("login_user");
+        List<Map> formList = leaveFormService.getLeaveFormList("process", user.getEmployeeId());
+        Map result = new HashMap();
+        result.put("code", "0");
+        result.put("msg", "");
+        result.put("count", formList.size());
+        result.put("data", formList);
+        String json = JSON.toJSONString(result);
+        response.getWriter().println(json);
+
+    }
+
+    /**
+     * 处理审批操作
+     * @param request
+     * @param response
+     * @throws ServletException
+     * @throws IOException
+     */
+    private void audit(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String formId = request.getParameter("formId");
+        String result = request.getParameter("result");
+        String reason = request.getParameter("reason");
+        System.out.println(request.getParameter("formId"));
+        User user = (User)request.getSession().getAttribute("login_user");
+        Map mpResult = new HashMap();
+        try {
+            leaveFormService.audit(Long.parseLong(formId), user.getEmployeeId(), result, reason);
+            mpResult.put("code", "0");
+            mpResult.put("message", "success");
+        } catch (NumberFormatException e) {
+            logger.error("请假单审核失败", e);
+            mpResult.put("code", e.getClass().getSimpleName());
+            mpResult.put("message", e.getMessage());
+        }
+        String json = JSON.toJSONString(mpResult);
+        response.getWriter().println(json);
+    }
+
 }
